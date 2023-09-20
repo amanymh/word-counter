@@ -1,0 +1,35 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .container-wordCounter{
+    width: 100%;
+    overflow: auto;
+    max-height: 500px;
+    margin-left: 30px;
+   
+    height: 500px;
+    
+  }
+  thead{
+    background: #f5eeb1;
+  
+  
+  }
+  tbody tr:nth-child(odd) {
+    background: cornsilk;
+    
+  }
+  .container-wordCounter thead th {
+    position: sticky; 
+    top: 0px; 
+    background: #f5eeb1;
+  }
