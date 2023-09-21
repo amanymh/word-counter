@@ -52,17 +52,22 @@ function App() {
       <h1>Word Count Application</h1>
    
       <div className="file-uploader">
-      <FileUploader onFileUpload={handleFileUpload} />
+         <FileUploader onFileUpload={handleFileUpload} />
       </div>
+      
       {error && <ErrorMessage message={error} />}
-      {displayFileContent && <div className="file-diplay-container">
-      <div className="file-display">
-      <FileDisplay fileContent={fileContent} />
+
+      {displayFileContent &&
+       <div className="file-diplay-container">
+
+         <div className="file-display">
+           <FileDisplay fileContent={fileContent} />
+         </div>
+       <div className="word-counter">
+           <WordCounter wordCount={wordCount} />
+       </div>
       </div>
-      <div className="word-counter">
-      <WordCounter wordCount={wordCount} />
-      </div>
-      </div>}
+      }
       
       
     </div>

@@ -25,11 +25,11 @@ table {
   
   }
   tbody tr:nth-child(odd) {
-    background: cornsilk;
+    background: whitesmoke;
     
   }
   .container-wordCounter thead th {
     position: sticky; 
     top: 0px; 
-    background: #f5eeb1;
+    background: #f1f2ce;
   }
