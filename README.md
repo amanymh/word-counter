@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+## git clone https://github.com/amanymh/word-counter.git
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+clone the repo
 
-## Available Scripts
+## cd word-counter
 
 In the project directory, you can run:
 
@@ -11,10 +11,7 @@ In the project directory, you can run:
 to install node modules
 ### `npm start`
 
-
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-
 
 ### `npm test`
 
